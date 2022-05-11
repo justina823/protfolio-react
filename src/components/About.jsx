@@ -1,5 +1,6 @@
 import React from 'react';
 import Profile from '../assets/Profile.jpg' 
+import Resume from '../assets/Justina-resume.pdf'
 
 const About = () => {
   return (
@@ -24,7 +25,16 @@ const About = () => {
           
                     Innovative tech and business mind with more than 2 years of experience working as a software and web developer. Capable of working with a variety of technology and workplaces. Valuable team member which worked with many professionals throughout different fields. Extensive experience with web development, front, and backend. Very adaptable and fast learner with unique ideas and contributions to businesses.<br/>
                     
-                    Innovative Web Developer with the project of experience in website design such as the Firstmet Cafe website. Demonstrated talent for front and back-end web development to optimize online presence. Experience expert in languages such as HTML, CSS, PHP, and Python as well as scripting languages JavaScript.</p>  
+                    Innovative Web Developer with the project of experience in website design such as the Firstmet Cafe website. Demonstrated talent for front and back-end web development to optimize online presence. Experience expert in languages such as HTML, CSS, PHP, and Python as well as scripting languages JavaScript.
+                    </p> 
+                  
+                    <div className='pt-8 text-center'>
+                        <a href={Resume} target="_blank">
+                    <button className='text-[#171C20]   border-[#eb8277] border-2 px-12 py-3 my-2 flex items-center hover:bg-[#eb8277] hover:border-[#eb8277]'>Download CV</button>
+                    </a>
+                </div>
+
+                  
             </div>
           </div>
       </div>
